@@ -1,0 +1,518 @@
+{
+  "tomato_early_blight": {
+    "crop": "Tomato",
+    "disease_name": "Tomato Early Blight",
+    "scientific_name": "Alternaria solani",
+    "names_i18n": {
+      "en": "Tomato Early Blight",
+      "hi": "टमाटर का अगेती झुलसा रोग (अर्ली ब्लाइट)",
+      "te": "టొమాటో ముందస్తు తెగులు (ఎర్లీ బ్లైట్)",
+      "mr": "टोमॅटोचा करपा रोग",
+      "ta": "தக்காளி ஆரம்பகால கருகல் நோய்",
+      "kn": "ಟೊಮೆಟೊ ಮುಂಚಿನ ಮುಂಗಾರು ಅಂಗಮಾರಿ ರೋಗ"
+    },
+    "symptoms_i18n": {
+      "en": "Concentric dark brown rings ('target-board' spots) on older bottom leaves with yellow halo around lesions.",
+      "hi": "निचली पुरानी पत्तियों पर गहरे भूरे रंग के छल्लेदार धब्बे (टारगेट बोर्ड जैसे) और उनके चारों तरफ पीला घेरा।",
+      "te": "పాత దిగువ ఆకులపై ముదురు గోధుమ రంగు వలయాల మచ్చలు మరియు పసుపు రంగు అంచు.",
+      "mr": "खालील जुन्या पानांवर गडद तपकिरी वर्तुळाकार डाग व पिवळसर कडा.",
+      "ta": "கீழ் இலைகளில் செறிவான கரும் பழுப்பு வளைய புள்ளிகள் மற்றும் மஞ்சள் நிற வளையம்.",
+      "kn": "ಕೆಳಗಿನ ಹಳೆಯ ಎಲೆಗಳ ಮೇಲೆ ಗಾಢ ಕಂದು ಬಣ್ಣದ ವೃತ್ತಾಕಾರದ ಕಲೆಗಳು ಮತ್ತು ಹಳದಿ ಅಂಚು."
+    },
+    "safe_advisories": {
+      "low": {
+        "tier": "Cultural Practice (Low Risk)",
+        "title_i18n": {
+          "en": "Leaf Pruning & Canopy Spacing",
+          "hi": "संक्रमित पत्तियों की छंटाई और हवादार दूरी",
+          "te": "సోకిన ఆకులను తొలగించడం & గాలి ప్రసరణ",
+          "mr": "बाधित पानांची छाटणी व योग्य अंतर",
+          "ta": "பாதிக்கப்பட்ட இலைகளை அகற்றுதல் & இடைவெளி",
+          "kn": "ರೋಗಪೀಡಿತ ಎಲೆಗಳನ್ನು ತೆಗೆಯುವುದು & ಗಾಳಿಯಾಡುವಿಕೆ"
+        },
+        "instruction_i18n": {
+          "en": "Carefully pluck off and burn the lowest 2-3 infected leaves near soil level. Avoid overhead sprinkler irrigation to prevent leaf wetness; water only at root base early morning.",
+          "hi": "जमीन के पास वाली निचली 2-3 संक्रमित पत्तियों को तोड़कर खेत से दूर नष्ट करें या जलाएं। ऊपर से पानी छिड़कने से बचें; केवल सुबह के समय पौधे की जड़ में पानी दें।",
+          "te": "నేల దగ్గర ఉన్న మొదటి 2-3 వ్యాధి సోకిన ఆకులను తుంచి కాల్చివేయండి. ఆకులపై నీరు పడకుండా మొక్క మొదట్లో మాత్రమే ఉదయం పూట నీరు పెట్టండి.",
+          "mr": "जमिनीलगतची २-३ बाधित पाने खुडून नष्ट करा. तुषार सिंचन टाळा; केवळ सकाळी झाडाच्या मुळाशी पाणी द्या.",
+          "ta": "கீழுள்ள 2-3 பாதிக்கப்பட்ட இலைகளை கிள்ளி எரிக்கவும். இலைகள் நனையாமல் வேர்ப்பகுதியில் மட்டும் அதிகாலையில் நீர் பாய்ச்சவும்.",
+          "kn": "ನೆಲದ ಸಮೀಪವಿರುವ 2-3 ರೋಗಪೀಡಿತ ಎಲೆಗಳನ್ನು ಕಿತ್ತು ನಾಶಮಾಡಿ. ಎಲೆಗಳ ಮೇಲೆ ನೀರು ಸಿಂಪಡಿಸದೆ, ಮುಂಜಾನೆ ಬುಡಕ್ಕೆ ಮಾತ್ರ ನೀರು ಹಾಯಿಸಿ."
+        },
+        "precaution": "Do not compost infected plant debris; always sterilize pruning scissors with 5% Dettol or boiled water.",
+        "materials": ["Sterilized shears/sickle", "Disposal bag", "Clean mulching straw"]
+      },
+      "medium": {
+        "tier": "Biological & Organic Control (Medium Risk)",
+        "title_i18n": {
+          "en": "Neem Oil & Trichoderma Bio-Fungicide",
+          "hi": "नीम तेल और ट्राइकोडर्मा जैविक छिड़काव",
+          "te": "వేప నూనె మరియు ట్రైకోడెర్మా బయో-స్ప్రే",
+          "mr": "कडुनिंब तेल व ट्रायकोडर्मा जैविक फवारणी",
+          "ta": "வேப்பெண்ணெய் & ட்ரைகோடெர்மா உயிரியல் தெளிப்பு",
+          "kn": "ಬೇವಿನ ಎಣ್ಣೆ ಮತ್ತು ಟ್ರೈಕೋಡರ್ಮ ಜೈವಿಕ ಸಿಂಪಡಣೆ"
+        },
+        "instruction_i18n": {
+          "en": "Spray 5ml Cold-Pressed Neem Oil (10,000 ppm) + 1ml liquid soap per litre of water. Alternatively, apply Trichoderma viride 1% WP (5g/L water) in late evening hours to suppress fungal spore germination.",
+          "hi": "5 मिली कोल्ड-प्रेस्ड नीम का तेल (10,000 ppm) + 1 मिली तरल साबुन प्रति लीटर पानी में मिलाकर पत्तियों के दोनों तरफ छिड़कें। या शाम के समय ट्राइकोडर्मा विरिडी (5 ग्राम/लीटर) का घोल बनाकर छिड़काव करें।",
+          "te": "5 మి.లీ వేప నూనె + 1 మి.లీ సబ్బు ద్రావణాన్ని లీటరు నీటిలో కలిపి పిచికారీ చేయండి. లేదా సాయంత్రం వేళల్లో ట్రైకోడెర్మా విరిడి (5గ్రా/లీటరు) పిచికారీ చేయండి.",
+          "mr": "५ मिली कडुलिंब तेल + १ मिली द्रव साबण प्रति लिटर पाण्यात मिसळून पानांच्या दोन्ही बाजूंना फवारा. संध्याकाळी ट्रायकोडर्मा व्हिरिडी (५ ग्रॅम/लिटर) फवारणी करा.",
+          "ta": "ஒரு லிட்டர் தண்ணீருக்கு 5 மி.லி வேப்பெண்ணெய் + 1 மி.லி திரவ சோப்பு கலந்து தெளிக்கவும். அல்லது மாலை நேரத்தில் ட்ரைகோடெர்மா (5g/L) தெளிக்கவும்.",
+          "kn": "5 ಮಿಲಿ ಬೇವಿನ ಎಣ್ಣೆ + 1 ಮಿಲಿ ಸಾಬೂನು ದ್ರಾವಣವನ್ನು ಪ್ರತಿ ಲೀಟರ್ ನೀರಿಗೆ ಬೆರೆಸಿ ಸಿಂಪಡಿಸಿ. ಸಂಜೆ ಟ್ರೈಕೋಡರ್ಮ ವಿರಿಡೆ (5 ಗ್ರಾಂ/ಲೀ) ದ್ರಾವಣ ಸಿಂಪಡಿಸಿ."
+        },
+        "precaution": "Never spray under hot midday sun. Ensure complete coverage under the leaf surface.",
+        "materials": ["Cold pressed Neem oil (10000 ppm)", "Trichoderma viride 1% WP", "Backpack hand sprayer"]
+      },
+      "high": {
+        "tier": "Krishi Vigyan Kendra Helpline & Expert Advisory (High Risk)",
+        "title_i18n": {
+          "en": "Urgent Outbreak Alert — Contact KVK Agri Officer",
+          "hi": "आपातकालीन चेतावनी — कृषि विज्ञान केंद्र / विशेषज्ञ से संपर्क करें",
+          "te": "అత్యవసర హెచ్చరిక — కృషి విజ్ఞాన కేంద్రం (KVK) ని సంప్రదించండి",
+          "mr": "तातडीचा इशारा — कृषी विज्ञान केंद्र (KVK) संपर्क",
+          "ta": "அவசர எச்சரிக்கை — கேவிகே வேளாண் அதிகாரியைத் தொடர்பு கொள்ளவும்",
+          "kn": "ತುರ್ತು ಎಚ್ಚರಿಕೆ — ಕೃಷಿ ವಿಜ್ಞಾನ ಕೇಂದ್ರ ತಜ್ಞರನ್ನು ಸಂಪರ್ಕಿಸಿ"
+        },
+        "instruction_i18n": {
+          "en": "Severe blight detected in your cluster! Avoid unverified chemical overdose. Dial Kisan Call Centre (Toll-Free 1800-180-1551) or visit your nearest KVK block officer for verified fungicide prescription.",
+          "hi": "आपके इलाके में संक्रमण तेज है! बिना वैज्ञानिक सलाह के अंधाधुंध कीटनाशक न डालें। किसान कॉल सेंटर (टोल फ्री: 1800-180-1551) पर कॉल करें या नजदीकी KVK कृषि अधिकारी से तुरंत मिलें।",
+          "te": "మీ ప్రాంతంలో తెగులు తీవ్రంగా ఉంది! అనధికారిక రసాయనాలు వాడవద్దు. ఉచిత కిసాన్ కాల్ సెంటర్ (1800-180-1551) కు కాల్ చేయండి లేదా దగ్గర్లోని KVK అధికారిని సంప్రదించండి.",
+          "mr": "आपल्या भागात प्रादुर्भाव वाढला आहे! अप्रमाणित औषधांचा अतिवापर टाळा. टोल-फ्री किसान कॉल सेंटर (1800-180-1551) वर त्वरित संपर्क साधा किंवा KVK अधिकाऱ्यांचा सल्ला घ्या.",
+          "ta": "உங்கள் பகுதியில் நோய் வேகமாக பரவுகிறது! கிசான் கால் சென்டரை (1800-180-1551) தொடர்பு கொள்ளவும் அல்லது அருகிலுள்ள வேளாண்மை அதிகாரியை அணுகவும்.",
+          "kn": "ನಿಮ್ಮ ಗ್ರಾಮದಲ್ಲಿ ರೋಗ ಹೆಚ್ಚಾಗಿದೆ! ಉಚಿತ ಕಿಸಾನ್ ಕಾಲ್ ಸೆಂಟರ್ (1800-180-1551) ಗೆ ಕರೆ ಮಾಡಿ ಅಥವಾ ಸಮೀಪದ ಕೆವಿಕೆ ತಜ್ಞರನ್ನು ಭೇಟಿ ಮಾಡಿ."
+        },
+        "precaution": "Strictly follow ICAR withholding periods. Wear protective mask and gloves if handling any prescribed compound.",
+        "materials": ["Kisan Call Centre 1800-180-1551", "Sample plant leaf in sealed polythene", "KVK Visit"]
+      }
+    }
+  },
+  "potato_late_blight": {
+    "crop": "Potato",
+    "disease_name": "Potato Late Blight",
+    "scientific_name": "Phytophthora infestans",
+    "names_i18n": {
+      "en": "Potato Late Blight",
+      "hi": "आलू का पछेती झुलसा रोग (लेट ब्लाइट)",
+      "te": "బంగాళాదుంప లేట్ బ్లైట్ తెగులు",
+      "mr": "बटाट्यावरील लेट ब्लाइट (पछेती करपा)",
+      "ta": "உருளைக்கிழங்கு பிற்கால கருகல் நோய்",
+      "kn": "ಆಲೂಗಡ್ಡೆ ಲೇಟ್ ಬ್ಲೈಟ್ ಅಂಗಮಾರಿ ರೋಗ"
+    },
+    "symptoms_i18n": {
+      "en": "Water-soaked dark lesions on leaf tips and margins; white fuzzy fungal growth on leaf undersides under humid conditions.",
+      "hi": "पत्तियों के सिरों और किनारों पर पानी से भीगे जैसे काले-भूरे धब्बे; अधिक नमी होने पर पत्ती के नीचे सफेद फफूंद दिखती है।",
+      "te": "ఆకుల చివర్లలో మరియు అంచులలో నీటి మచ్చలు; తేమతో కూడిన వాతావరణంలో ఆకుల వెనుక తెల్లటి బూజు.",
+      "mr": "पानांच्या कडांवर काळपट ओलसर डाग; दमट हवामानात पानांच्या मागच्या बाजूला पांढरी बुरशी.",
+      "ta": "இலைகளின் நுனிகளில் கரும் புள்ளிகள் மற்றும் ஈரப்பதமான நிலையில் இலைக்கு அடியில் வெள்ளை பூஞ்சை.",
+      "kn": "ಎಲೆಗಳ ಅಂಚಿನಲ್ಲಿ ಕಪ್ಪು ತೇವಾಂಶದ ಕಲೆಗಳು ಮತ್ತು ಹೆಚ್ಚಿನ ತೇವಾಂಶವಿದ್ದಾಗ ಎಲೆಯ ಕೆಳಗೆ ಬಿಳಿ ಶಿಲೀಂಧ್ರ."
+    },
+    "safe_advisories": {
+      "low": {
+        "tier": "Cultural Practice (Low Risk)",
+        "title_i18n": {
+          "en": "Drainage Enhancement & Ridging",
+          "hi": "जल निकासी सुधार और मेड़ों पर मिट्टी चढ़ाना",
+          "te": "నీటి పారుదల మెరుగుదల & గట్ల ఎత్తు పెంపు",
+          "mr": "पाण्याचा निचरा व वाफ्यांना माती लावणे",
+          "ta": "வடிகால் வசதி & வரப்புகளை உயர்த்துதல்",
+          "kn": "ನೀರು ನಿಲ್ಲದಂತೆ ಚರಂಡಿ ವ್ಯವಸ್ಥೆ ಮತ್ತು ಮಣ್ಣೇರಿಸುವುದು"
+        },
+        "instruction_i18n": {
+          "en": "Ensure rapid furrow drainage to eliminate stagnant water. Earth up soil tightly around potato ridges so tubers stay insulated from washing fungal zoospores.",
+          "hi": "खेत में पानी जमा न होने दें, नालियों को साफ रखें। आलू की मेड़ों पर अच्छी तरह मिट्टी चढ़ाएं ताकि कंद तक फफूंद के जीवाणु न पहुंचें।",
+          "te": "పొలంలో నీరు నిల్వ ఉండకుండా కాలువలను శుభ్రం చేయండి. దుంపలకు రక్షణగా మొక్కల మొదళ్ల వద్ద మట్టిని ఎత్తుగా వేయండి.",
+          "mr": "शेतात पाणी साचू देऊ नका; चर काढून निचरा करा. बटाट्याच्या झाडांना मातीची चांगली भर द्या.",
+          "ta": "வயலில் தண்ணீர் தேங்காமல் பார்த்துக் கொள்ளுங்கள். கிழங்குகளை பாதுகாக்க செடிகளின் அடியில் மண் அணைக்கவும்.",
+          "kn": "ಗದ್ದೆಯಲ್ಲಿ ನೀರು ನಿಲ್ಲದಂತೆ ಬಸಿಗಾಲುವೆ ಮಾಡಿ. ಗಡ್ಡೆಗಳಿಗೆ ರಕ್ಷಣೆ ಸಿಗುವಂತೆ ಗಿಡದ ಬುಡಕ್ಕೆ ಮಣ್ಣು ಏರಿಸಿ."
+        },
+        "precaution": "Never irrigate if cloudy humid weather is forecast over next 48 hours.",
+        "materials": ["Spade/Hoe for ridging", "Drainage channel clearers"]
+      },
+      "medium": {
+        "tier": "Biological & Organic Control (Medium Risk)",
+        "title_i18n": {
+          "en": "Bordeaux Mixture / Copper Soap Spray",
+          "hi": "बोर्डो मिश्रण या तांबा आधारित जैविक घोल",
+          "te": "బోర్డో మిశ్రమం పిచికారీ",
+          "mr": "बोर्डो मिश्रण (१%) फवारणी",
+          "ta": "போர்டோ கலவை (1%) தெளித்தல்",
+          "kn": "ಬೋರ್ಡೋ ದ್ರಾವಣ (1%) ಸಿಂಪಡಣೆ"
+        },
+        "instruction_i18n": {
+          "en": "Apply freshly prepared 1% Bordeaux mixture (1kg Copper Sulphate + 1kg Quicklime in 100L water) or approved Copper Octanoate bio-fungicide as a preventative barrier.",
+          "hi": "ताजा तैयार किया गया 1% बोर्डो मिश्रण (1 किग्रा नीला थोथा + 1 किग्रा चूना 100 लीटर पानी में) का पत्तियों पर समान छिड़काव करें। यह फफूंद को फैलने से रोकता है।",
+          "te": "తాజాగా తయారుచేసిన 1% బోర్డో మిశ్రమాన్ని (1 కిలో మైలుతుత్తం + 1 కిలో సున్నం 100 లీటర్ల నీటిలో) పిచికారీ చేయండి.",
+          "mr": "ताजे तयार केलेले १% बोर्डो मिश्रण (१ किलो मोरचूद + १ किलो कळीचा चुना १०० लि पाण्यात) फवारावे.",
+          "ta": "புதிதாக தயார் செய்யப்பட்ட 1% போர்டோ கலவையை இலைகளில் நன்றாக தெளிக்கவும்.",
+          "kn": "ತಾಜಾ ತಯಾರಿಸಿದ 1% ಬೋರ್ಡೋ ಮಿಶ್ರಣವನ್ನು (1 ಕೆಜಿ ಮೈಲುತುತ್ತ + 1 ಕೆಜಿ ಸುಣ್ಣ 100 ಲೀ ನೀರಿಗೆ) ಸಿಂಪಡಿಸಿ."
+        },
+        "precaution": "Prepare Bordeaux mixture in plastic or earthen vessels only; do not use metal buckets.",
+        "materials": ["Copper Sulphate", "Agricultural Lime", "Plastic barrel", "Stirring rod"]
+      },
+      "high": {
+        "tier": "Krishi Vigyan Kendra Helpline & Expert Advisory (High Risk)",
+        "title_i18n": {
+          "en": "Emergency Late Blight Epidemic Alert",
+          "hi": "आपातकालीन लेट ब्लाइट महामारी चेतावनी — विशेषज्ञ से मिलें",
+          "te": "అత్యవసర బ్లైట్ హెచ్చరిక — వ్యవసాయ అధికారి సంప్రదింపు",
+          "mr": "अतितातडीचा इशारा — कृषी तज्ज्ञांशी संपर्क साधा",
+          "ta": "அவசர நோய் பரவல் எச்சரிக்கை — அதிகாரிகளை தொடர்பு கொள்க",
+          "kn": "ತೀವ್ರ ರೋಗ ಎಚ್ಚರಿಕೆ — ತಕ್ಷಣ ಕೃಷಿ ಅಧಿಕಾರಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ"
+        },
+        "instruction_i18n": {
+          "en": "Late blight spreads explosively during cold humid days. Stop field work to prevent carrying spores on clothes. Contact Kisan Call Center (1800-180-1551) or your District Horticulture Officer immediately.",
+          "hi": "ठंड और नमी में यह बीमारी कुछ ही दिनों में पूरी फसल नष्ट कर सकती है। तुरंत किसान कॉल सेंटर (1800-180-1551) पर कॉल करें और अपने ब्लॉक के कृषि/उद्यान अधिकारी से संपर्क करें।",
+          "te": "చల్లటి తేమ వాతావరణంలో ఈ తెగులు వేగంగా వ్యాపిస్తుంది. వెంటనే కిసాన్ కాల్ సెంటర్ (1800-180-1551) కు కాల్ చేసి అధికారిక సలహా తీసుకోండి.",
+          "mr": "ढगाळ व थंड हवामानात हा रोग संपूर्ण पीक नष्ट करू शकतो. त्वरित किसान कॉल सेंटर १८००-१८०-१५५१ वर संपर्क साधा.",
+          "ta": "குளிர்ந்த ஈரப்பதமான வானிலையில் இந்நோய் மிக வேகமாக பரவும். உடனே 1800-180-1551 எண்ணை தொடர்பு கொள்ளவும்.",
+          "kn": "ಶೀತ ವಾತಾವರಣದಲ್ಲಿ ಈ ರೋಗ ತೀವ್ರವಾಗಿ ಹರಡುತ್ತದೆ. ತಕ್ಷಣ ಕಿಸಾನ್ ಕಾಲ್ ಸೆಂಟರ್ 1800-180-1551 ಗೆ ಕರೆ ಮಾಡಿ."
+        },
+        "precaution": "Destroy infected tubers immediately. Do not transport infected seed tubers to adjacent fields.",
+        "materials": ["Kisan Call Centre 1800-180-1551", "District Horticulture Officer Contact"]
+      }
+    }
+  },
+  "rice_blast": {
+    "crop": "Rice",
+    "disease_name": "Rice Blast",
+    "scientific_name": "Magnaporthe oryzae",
+    "names_i18n": {
+      "en": "Rice Blast Disease",
+      "hi": "धान का झोंका / ब्लास्ट रोग",
+      "te": "వరి అగ్గితెగులు (రైస్ బ్లాస్ట్)",
+      "mr": "भातावरील करपा / ब्लास्ट रोग",
+      "ta": "நெல் குலை நோய் (பிளாஸ்ட்)",
+      "kn": "ಭತ್ತದ ಬೆಂಕಿ ರೋಗ (ಬ್ಲಾಸ್ಟ್)"
+    },
+    "symptoms_i18n": {
+      "en": "Spindle-shaped or eye-shaped lesions with grey/whitish centers and dark brown/reddish borders on leaf blades and neck.",
+      "hi": "पत्तियों पर आंख या नाव के आकार के धब्बे जिनका केंद्र सफेद/धूसर और किनारे कत्थई या लाल-भूरे रंग के होते हैं।",
+      "te": "ఆకులపై కంటి లేదా పడవ ఆకారపు మచ్చలు, మధ్యలో బూడిద రంగు మరియు అంచులలో ముదురు ఎరుపు/గోధుమ రంగు.",
+      "mr": "पानांवर डोळ्याच्या किंवा नावेच्या आकाराचे डाग, ज्यांचा मध्यभाग पांढुरका आणि कडा लालसर तपकिरी असतात.",
+      "ta": "இலைகளில் கண் வடிவிலான அல்லது படகு போன்ற புள்ளிகள், நடுவில் சாம்பல் நிறமும் விளிம்புகளில் கரும் பழுப்பும் காணப்படும்.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ಕಣ್ಣಿನ ಅಥವಾ ದೋಣಿಯ ಆಕಾರದ ಕಲೆಗಳು, ಮಧ್ಯದಲ್ಲಿ ಬೂದು ಬಣ್ಣ ಮತ್ತು ಅಂಚಿನಲ್ಲಿ ಕಂದು ಬಣ್ಣ."
+    },
+    "safe_advisories": {
+      "low": {
+        "tier": "Cultural Practice (Low Risk)",
+        "title_i18n": {
+          "en": "Nitrogen Balancing & Water Management",
+          "hi": "यूरिया (नाइट्रोजन) की संतुलित मात्रा और जल प्रबंधन",
+          "te": "యూరియా వాడకం తగ్గించడం & నీటి నిర్వహణ",
+          "mr": "नत्र (युरिया) खताचे संतुलन व पाणी नियंत्रण",
+          "ta": "நைட்ரஜன் சமநிலை & நீர் மேலாண்மை",
+          "kn": "ಯೂರಿಯಾ ಸಮತೋಲನ ಮತ್ತು ನೀರಿನ ನಿರ್ವಹಣೆ"
+        },
+        "instruction_i18n": {
+          "en": "Immediately postpone excess Urea (nitrogen) top-dressing, as excess nitrogen makes leaves succulent and susceptible. Maintain a continuous thin film of standing water (2-3 cm) in paddy beds.",
+          "hi": "तुरंत अतिरिक्त यूरिया डालना बंद करें, क्योंकि अधिक नाइट्रोजन से पत्तियां कोमल होकर बीमारी की चपेट में जल्दी आती हैं। खेत में 2-3 सेमी पानी हमेशा बनाए रखें।",
+          "te": "యూరియా వాడకాన్ని తాత్కాలికంగా ఆపండి. వరి మడిలో 2-3 సెం.మీ మేర పలుచటి నీటి నిల్వను కొనసాగించండి.",
+          "mr": "युरियाचा अतिवापर ताबडतोब थांबवा. शेतात २ ते ३ सेमी पाण्याचा पातळ थर सतत राहू द्या.",
+          "ta": "அதிகப்படியான யூரியா இடுவதை உடனே நிறுத்துங்கள். வயலில் 2-3 செ.மீ அளவு நீர் இருக்குமாறு பராமரிக்கவும்.",
+          "kn": "ಹೆಚ್ಚುವರಿ ಯೂರಿಯಾ ಗೊಬ್ಬರ ಕೊಡುವುದನ್ನು ನಿಲ್ಲಿಸಿ. ಗದ್ದೆಯಲ್ಲಿ 2-3 ಸೆಂ.ಮೀ ನೀರು ನಿರಂತರವಾಗಿ ಇರುವಂತೆ ನೋಡಿಕೊಳ್ಳಿ."
+        },
+        "precaution": "Do not let paddy field dry out into cracked soil during blast occurrence.",
+        "materials": ["Potash fertilizer supplement", "Field bund leveler"]
+      },
+      "medium": {
+        "tier": "Biological & Organic Control (Medium Risk)",
+        "title_i18n": {
+          "en": "Pseudomonas fluorescens Bio-Control",
+          "hi": "स्यूडोमोनास फ्लोरेसेंस जैविक सुरक्षा छिड़काव",
+          "te": "సూడోమోనాస్ ఫ్లోరోసెన్స్ బయో-స్ప్రే",
+          "mr": "स्यूडोमोनास फ्लोरेसेन्स जैविक फवारणी",
+          "ta": "சூடோமோனாஸ் உயிரியல் தெளிப்பு",
+          "kn": "ಸ್ಯೂಡೋಮೊನಾಸ್ ಜೈವಿಕ ಸಿಂಪಡಣೆ"
+        },
+        "instruction_i18n": {
+          "en": "Foliar spray of Pseudomonas fluorescens (commercial liquid formulation @ 10ml/L or talc powder @ 10g/L water). Apply at early tillering and panicle initiation stages.",
+          "hi": "स्यूडोमोनास फ्लोरेसेंस जैविक फफूंदनाशक (10 ग्राम या 10 मिली प्रति लीटर पानी) का घोल बनाकर फसल पर छिड़कें। यह कल्ले फूटते समय और बाली निकलते समय सबसे असरदार है।",
+          "te": "సూడోమోనాస్ ఫ్లోరోసెన్స్ (10 గ్రా/లీటరు నీటికి) పిచికారీ చేయండి. పిలకలు వేసే దశలో ఇది బాగా పనిచేస్తుంది.",
+          "mr": "स्यूडोमोनास फ्लोरेसेन्स (१० ग्रॅम/लिटर पाण्यात) मिसळून फवारणी करावी.",
+          "ta": "சூடோமோனாஸ் (10g/L) தண்ணீரில் கலந்து பயிரின் தூர்கட்டும் பருவத்தில் தெளிக்கவும்.",
+          "kn": "ಸ್ಯೂಡೋಮೊನಾಸ್ (10 ಗ್ರಾಂ/ಲೀ ನೀರಿಗೆ) ಬೆರೆಸಿ ಗಿಡಗಳಿಗೆ ಸಿಂಪಡಿಸಿ."
+        },
+        "precaution": "Mix bio-agents only with non-chlorinated well/canal water; do not mix directly with chemical fungicides.",
+        "materials": ["Pseudomonas fluorescens 1% WP", "Clean sprayer tank"]
+      },
+      "high": {
+        "tier": "Krishi Vigyan Kendra Helpline & Expert Advisory (High Risk)",
+        "title_i18n": {
+          "en": "Neck Blast Emergency Notification",
+          "hi": "गर्दन तोड़ (नेक ब्लास्ट) आपातकाल — KVK विशेषज्ञ से मिलें",
+          "te": "మెడ విరుపు తెగులు అత్యవసర హెచ్చరిక",
+          "mr": "मानमोड्या (नेक ब्लास्ट) तातडीचा इशारा",
+          "ta": "கழுத்து பிளாஸ்ட் அவசர எச்சரிக்கை",
+          "kn": "ಕುತ್ತಿಗೆ ಬೆಂಕಿ ರೋಗ ತುರ್ತು ಎಚ್ಚರಿಕೆ"
+        },
+        "instruction_i18n": {
+          "en": "Severe neck blast risks catastrophic yield loss. Contact Toll-Free 1800-180-1551 or your nearest State Agricultural University extension clinic for emergency triage.",
+          "hi": "गर्दन तोड़ रोग से बालियां सूखकर दाने नहीं बनते। तत्काल किसान कॉल सेंटर (1800-180-1551) पर फोन करें अथवा नजदीकी कृषि प्रसार अधिकारी से संपर्क करें।",
+          "te": "మెడ విరుపు తెగులు వల్ల దిగుబడి పూర్తిగా దెబ్బతింటుంది. వెంటనే 1800-180-1551 కు కాల్ చేయండి.",
+          "mr": "मानमोड्या रोगामुळे दाणे भरत नाहीत. तातडीने १८००-१८०-१५५१ वर कॉल करून तज्ज्ञ सल्ला घ्या.",
+          "ta": "கழுத்து பிளாஸ்ட் மகசூலை முழுமையாக பாதிக்கும். உடனடியாக 1800-180-1551 ஐ அழைக்கவும்.",
+          "kn": "ಕುತ್ತಿಗೆ ಬ್ಲಾಸ್ಟ್‌ನಿಂದ ಇಳುವರಿ ನಾಶವಾಗಬಹುದು. ತಕ್ಷಣ 1800-180-1551 ಗೆ ಕರೆ ಮಾಡಿ."
+        },
+        "precaution": "Do not reuse seeds from heavily infected fields for next sowing season.",
+        "materials": ["Kisan Call Centre 1800-180-1551", "Block Agricultural Officer"]
+      }
+    }
+  },
+  "cotton_leaf_curl": {
+    "crop": "Cotton",
+    "disease_name": "Cotton Leaf Curl Virus (CLCuV)",
+    "scientific_name": "Begomovirus (Whitefly Vector)",
+    "names_i18n": {
+      "en": "Cotton Leaf Curl Virus",
+      "hi": "कपास का पत्ता मरोड़ रोग (लीफ कर्ल वायरस)",
+      "te": "పత్తి ఆకు ముడుత వైరస్ (లీఫ్ కర్ల్)",
+      "mr": "कापसावरील चुरडा-मुरडा (लीफ कर्ल)",
+      "ta": "பருத்தி இலை சுருள் வைரஸ்",
+      "kn": "ಹತ್ತಿ ಎಲೆ ಮುಟುರು ವೈರಸ್ ರೋಗ"
+    },
+    "symptoms_i18n": {
+      "en": "Upward/downward curling of leaves, thickening of veins, and leaf-like enation outgrowths on the underside of leaves.",
+      "hi": "पत्तियों का ऊपर या नीचे की ओर मुड़ना, नसों का मोटा होना और पत्ती की निचली सतह पर पत्ती जैसी छोटी वृद्धि (इनैशन) निकलना।",
+      "te": "ఆకులు పైకి లేదా కిందికి ముడుచుకుపోవడం, ఈనెలు మందంగా మారడం, ఆకు అడుగున చిన్న ఎదుగుదలలు.",
+      "mr": "पाने वर किंवा खाली वळणे, शिरा जाड होणे व पानांच्या खाली लहान पानासारखी वाढ येणे.",
+      "ta": "இலைகள் மேல்நோக்கி அல்லது கீழ்நோக்கி சுருங்குதல், நரம்புகள் தடித்தல் மற்றும் இலைக்கு அடியில் சிறு வளர்ச்சி.",
+      "kn": "ಎಲೆಗಳು ಮೇಲಕ್ಕೆ ಅಥವಾ ಕೆಳಕ್ಕೆ ಮುದುರಿಕೊಳ್ಳುವುದು, ನರಗಳು ದಪ್ಪವಾಗುವುದು ಮತ್ತು ಎಲೆಯ ಕೆಳಗೆ ಸಣ್ಣ ಬೆಳವಣಿಗೆ."
+    },
+    "safe_advisories": {
+      "low": {
+        "tier": "Cultural Practice (Low Risk)",
+        "title_i18n": {
+          "en": "Rogueing Infected Plants & Weed Eradication",
+          "hi": "संक्रमित पौधों को उखाड़ना और खरपतवार की रोकथाम",
+          "te": "వ్యాధి మొక్కలను పీకివేయడం & కలుపు నివారణ",
+          "mr": "रोगट झाडे उपटून नष्ट करणे व तण नियंत्रण",
+          "ta": "நோயுற்ற செடிகளை பிடுங்கி அழித்தல் & களை கட்டுப்பாடு",
+          "kn": "ರೋಗಪೀಡಿತ ಗಿಡಗಳನ್ನು ಕಿತ್ತು ನಾಶಮಾಡುವುದು"
+        },
+        "instruction_i18n": {
+          "en": "Uproot and bury initial isolated infected plants before virus spreads. Remove host weeds (such as Kanghi / Abutilon indicum and Parthenium) from field borders where whiteflies breed.",
+          "hi": "शुरुआती 1-2 संक्रमित पौधों को तुरंत जड़ से उखाड़कर जमीन में गाड़ दें। मेड़ों के आसपास के खरपतवार (कंधी, गाजरघास) नष्ट करें जहां सफेद मक्खी पनपती है।",
+          "te": "మొదట్లో కనిపించిన వ్యాధి మొక్కలను పీకి పూడ్చిపెట్టండి. గట్లపై ఉన్న కలుపు మొక్కలను తొలగించండి.",
+          "mr": "सुरुवातीची बाधित झाडे उपटून नष्ट करा. शेताच्या बांधावरील गाजरगवत व इतर तण नष्ट करा.",
+          "ta": "ஆரம்பத்தில் பாதிக்கப்பட்ட செடிகளை பிடுங்கி எரிக்கவும். வரப்புகளில் உள்ள பார்த்தீனியம் போன்ற களைகளை அகற்றவும்.",
+          "kn": "ಆರಂಭಿಕ ರೋಗಪೀಡಿತ ಗಿಡಗಳನ್ನು ಕಿತ್ತು ಹೂತುಹಾಕಿ. ಬದುವಿನ ಮೇಲಿನ ಕಳೆ ಗಿಡಗಳನ್ನು ನಾಶಮಾಡಿ."
+        },
+        "precaution": "Do not throw uprooted plants into open irrigation channels.",
+        "materials": ["Protective gloves", "Spade"]
+      },
+      "medium": {
+        "tier": "Biological & Organic Control (Medium Risk)",
+        "title_i18n": {
+          "en": "Yellow Sticky Traps & Neem Vector Control",
+          "hi": "पीले चिपचिपे ट्रैप और नीम अर्क से सफेद मक्खी नियंत्रण",
+          "te": "పసుపు రంగు జిగురు బుట్టలు & వేప నూనె",
+          "mr": "पिवळे चिकट सापळे व कडुनिंब अर्क",
+          "ta": "மஞ்சள் நிற ஒட்டும் பொறிகள் & வேம்பு தெளிப்பு",
+          "kn": "ಹಳದಿ ಅಂಟು ಬಲೆಗಳು ಮತ್ತು ಬೇವಿನ ಕಷಾಯ"
+        },
+        "instruction_i18n": {
+          "en": "Install 15-20 Yellow Sticky Traps per acre at crop canopy height to trap whitefly vectors. Spray 5% Neem Seed Kernel Extract (NSKE) or Verticillium lecanii (5g/L) to manage vector population safely.",
+          "hi": "प्रति एकड़ 15-20 पीले चिपचिपे कार्ड (येलो स्टिकी ट्रैप) फसल की ऊंचाई पर लगाएं। 5% नीम के बीज का अर्क (NSKE) या वर्टिसिलियम लेकानी (5 ग्राम/लीटर) का छिड़काव करें।",
+          "te": "ఎకరానికి 15-20 పసుపు రంగు జిగురు అట్టలను అమర్చండి. 5% వేప గింజల కషాయం లేదా వర్టిసిలియం పిచికారీ చేయండి.",
+          "mr": "एकरला १५-२० पिवळे चिकट सापळे लावा. ५% निंबोळी अर्क किंवा व्हर्टिसिलियम (५ ग्रॅ/लि) फवारा.",
+          "ta": "ஏக்கருக்கு 15-20 மஞ்சள் ஒட்டும் பொறிகளை அமைக்கவும். 5% வேப்பங்கொட்டை சாறு தெளிக்கவும்.",
+          "kn": "ಎಕರೆಗೆ 15-20 ಹಳದಿ ಅಂಟು ಬಲೆಗಳನ್ನು ಕಟ್ಟಿ. 5% ಬೇವಿನ ಬೀಜದ ಕಷಾಯ ಸಿಂಪಡಿಸಿ."
+        },
+        "precaution": "Check traps weekly and clean with castor oil / grease if covered in dust.",
+        "materials": ["Yellow sticky boards (15-20/acre)", "Neem Seed Kernel Extract 5%", "Bamboo stakes"]
+      },
+      "high": {
+        "tier": "Krishi Vigyan Kendra Helpline & Expert Advisory (High Risk)",
+        "title_i18n": {
+          "en": "Whitefly Vector Outbreak Surge Alert",
+          "hi": "सफेद मक्खी और लीफ कर्ल आपात अलर्ट — KVK से संपर्क",
+          "te": "తెల్లదోమ వ్యాప్తి అత్యవసర హెచ్చరిక",
+          "mr": "पांढरी माशी प्रादुर्भाव तातडीचा इशारा",
+          "ta": "வெள்ளை ஈ தாக்குதல் தீவிர எச்சரிக்கை",
+          "kn": "ಬಿಳಿ ನೊಣ ಹಾವಳಿ ತುರ್ತು ಎಚ್ಚರಿಕೆ"
+        },
+        "instruction_i18n": {
+          "en": "Aggressive whitefly vector movement in your village cluster. Dial National Kisan Helpline (1800-180-1551) or consult Central Institute for Cotton Research (CICR) advisories before any spray.",
+          "hi": "आपके गांव में सफेद मक्खी का प्रकोप तेजी से बढ़ रहा है। किसान हेल्पलाइन 1800-180-1551 पर तुरंत संपर्क करें और केंद्रीय कपास अनुसंधान संस्थान (CICR) की सलाह लें।",
+          "te": "గ్రామంలో తెల్లదోమ ఉధృతి ఎక్కువగా ఉంది. కిసాన్ హెల్ప్‌లైన్ 1800-180-1551 కు కాల్ చేయండి.",
+          "mr": "गावात पांढऱ्या माशीचा प्रादुर्भाव वाढला आहे. १८००-१८०-१५५१ वर त्वरित मार्गदर्शन घ्या.",
+          "ta": "உங்கள் பகுதியில் வெள்ளை ஈக்கள் வேகமாக பரவுகிறது. 1800-180-1551 எண்ணை தொடர்பு கொள்ளவும்.",
+          "kn": "ಗ್ರಾಮದಲ್ಲಿ ಬಿಳಿ ನೊಣಗಳ ಸಂಖ್ಯೆ ಹೆಚ್ಚಿದೆ. ಕಿಸಾನ್ ಸಹಾಯವಾಣಿ 1800-180-1551 ಗೆ ಕರೆ ಮಾಡಿ."
+        },
+        "precaution": "Do not use unrecommended synthetic pyrethroids as they cause whitefly resurgence.",
+        "materials": ["Kisan Call Centre 1800-180-1551", "CICR Kisan App"]
+      }
+    }
+  },
+  "maize_fall_armyworm": {
+    "crop": "Maize",
+    "disease_name": "Fall Armyworm",
+    "scientific_name": "Spodoptera frugiperda",
+    "names_i18n": {
+      "en": "Fall Armyworm (FAW)",
+      "hi": "मक्के का फॉल आर्मीवर्म (सैनिक कीट)",
+      "te": "మొక్కజొన్న కత్తెర పురుగు",
+      "mr": "मक्यावरील लष्करी अळी",
+      "ta": "மக்காச்சோள படைப்புழு",
+      "kn": "ಮೆಕ್ಕೆಜೋಳದ ಲದ್ದಿ ಹುಳು (ಫಾಲ್ ಆರ್ಮಿವರ್ಮ್)"
+    },
+    "symptoms_i18n": {
+      "en": "Ragged holes and 'window-pane' feeding damage in leaves; saw-dust like coarse frass accumulation deep in central whorl.",
+      "hi": "पत्तियों पर जालीदार छेद और बड़े कटे हुए निशान; पौधे के बीच (गोभ/व्होर्ल) में बुरादे जैसा मलमूत्र जमा होना।",
+      "te": "ఆకులపై పెద్ద రంధ్రాలు; మొక్క సుడులలో రంపపు పొట్టు లాంటి పురుగు మల పదార్థం.",
+      "mr": "पानांवर मोठी छिद्रे; मक्याच्या पोंग्यात लाकडाच्या भुशासारखी विष्ठा साचलेली दिसणे.",
+      "ta": "இலைகளில் கிழிந்த துளைகள்; செடியின் மையப்பகுதியில் மரத்தூள் போன்ற கழிவுகள் தேங்குதல்.",
+      "kn": "ಎಲೆಗಳ ಮೇಲೆ ದೊಡ್ಡ ರಂಧ್ರಗಳು; ಸುಳಿಯ ಒಳಗೆ ಮರದ ಪುಡಿಯಂತಹ ಮಲ ಶೇಖರಣೆ."
+    },
+    "safe_advisories": {
+      "low": {
+        "tier": "Cultural Practice (Low Risk)",
+        "title_i18n": {
+          "en": "Whorl Sanding & Egg Mass Crushing",
+          "hi": "गोभ में सूखी रेत/राख डालना और अंडों को नष्ट करना",
+          "te": "సుడిలో ఇసుక/బూడిద వేయడం & గుడ్ల నాశనం",
+          "mr": "पोंग्यात वाळू/राख भरणे व अंडी नष्ट करणे",
+          "ta": "சுழலில் மணல்/சாம்பல் இடுதல் & முட்டைகளை அழித்தல்",
+          "kn": "ಸುಳಿಯಲ್ಲಿ ಮರಳು/ಬೂದಿ ಹಾಕುವುದು & ಮೊಟ್ಟೆ ನಾಶ"
+        },
+        "instruction_i18n": {
+          "en": "Drop a small pinch of dry sand mixed with wood ash (9:1 ratio) directly into the leaf whorls. This physically disrupts young larvae feeding. Crush furry cream egg masses on leaf undersides by hand.",
+          "hi": "मक्के की गोभ में थोड़ी सूखी रेत और लकड़ी की राख (9:1 अनुपात) चुटकी से डालें। यह सुंडी की त्वचा को छीलकर नष्ट कर देती है। पत्ती के नीचे दिखने वाले अंडों के गुच्छों को मसल दें।",
+          "te": "మొక్క సుడిలో కొద్దిగా ఇసుక మరియు బూడిద మిశ్రమాన్ని వేయండి. ఆకుల కింద ఉన్న గుడ్ల సమూహాలను చేతితో నలిపివేయండి.",
+          "mr": "मक्याच्या पोंग्यात वाळू व लाकडाची राख चिमूटभर टाका. पानांखालील अंड्यांचे पुंजके हाताने चिरडून नष्ट करा.",
+          "ta": "செடியின் குருத்தில் சிறிதளவு மணல் மற்றும் சாம்பல் கலவையை போடவும். இலைக்கு அடியில் உள்ள முட்டை குவியல்களை அழிக்கவும்.",
+          "kn": "ಗಿಡದ ಸುಳಿಗೆ ಸ್ವಲ್ಪ ಮರಳು ಮತ್ತು ಬೂದಿಯ ಮಿಶ್ರಣವನ್ನು ಹಾಕಿ. ಎಲೆಯ ಕೆಳಗಿರುವ ಮೊಟ್ಟೆಗಳನ್ನು ಕೈಯಿಂದ ನಾಶಮಾಡಿ."
+        },
+        "precaution": "Do not use hot ash or chemical-treated sand.",
+        "materials": ["Fine dry river sand", "Wood ash", "Hand gloves"]
+      },
+      "medium": {
+        "tier": "Biological & Organic Control (Medium Risk)",
+        "title_i18n": {
+          "en": "Pheromone Traps & Metarhizium/Bt Spray",
+          "hi": "फेरोमोन ट्रैप और बैसिलस थुरिंजिएंसिस (Bt) स्प्रे",
+          "te": "లింగాకర్షక బుట్టలు & బయో-కంట్రోల్ పిచికారీ",
+          "mr": "कामगंध सापळे व जैविक फवारणी (Bt / Metarhizium)",
+          "ta": "இனக்கவர்ச்சி பொறிகள் & பி.டி (Bt) தெளிப்பு",
+          "kn": "ಮೋಹಕ ಬಲೆಗಳು ಮತ್ತು ಬಿ.ಟಿ (Bt) ಸಿಂಪಡಣೆ"
+        },
+        "instruction_i18n": {
+          "en": "Install 5 FAW Pheromone funnel traps per acre. Spray Bacillus thuringiensis (Bt var kurstaki @ 2g/L) or Metarhizium rileyi bio-insecticide directly aimed inside the whorl during evening hours.",
+          "hi": "प्रति एकड़ 5 फॉल आर्मीवर्म फेरोमोन ट्रैप लगाएं। शाम के समय बैसिलस थुरिंजिएंसिस (Bt @ 2 ग्राम/लीटर) का घोल सीधे गोभ के अंदर पहुंचे इस तरह छिड़कें।",
+          "te": "ఎకరానికి 5 లింగాకర్షక బుట్టలను అమర్చండి. సాయంత్రం వేళల్లో బి.టి (Bt 2గ్రా/లీ) ద్రావణాన్ని సుడిలో పడేలా పిచికారీ చేయండి.",
+          "mr": "एकरला ५ कामगंध सापळे लावा. संध्याकाळी बी.टी (Bt २ ग्रॅ/लि) थेट पोंग्यात फवारा.",
+          "ta": "ஏக்கருக்கு 5 இனக்கவர்ச்சி பொறிகளை வைக்கவும். மாலை நேரத்தில் பி.டி (2g/L) கரைசலை குருத்தில் தெளிக்கவும்.",
+          "kn": "ಎಕರೆಗೆ 5 ಮೋಹಕ ಬಲೆಗಳನ್ನು ಇಡಿ. ಸಂಜೆ ವೇಳೆ ಬಿ.ಟಿ (2 ಗ್ರಾಂ/ಲೀ) ದ್ರಾವಣವನ್ನು ಸುಳಿಗೆ ಸಿಂಪಡಿಸಿ."
+        },
+        "precaution": "Target the spray nozzle directly into the central whorl, not just over flat leaves.",
+        "materials": ["FAW Funnel Traps (5/acre)", "Bacillus thuringiensis kurstaki WP", "Narrow nozzle sprayer"]
+      },
+      "high": {
+        "tier": "Krishi Vigyan Kendra Helpline & Expert Advisory (High Risk)",
+        "title_i18n": {
+          "en": "Critical Armyworm Whorl Destruction Alert",
+          "hi": "फॉल आर्मीवर्म गंभीर संकट — KVK वैज्ञानिक से संपर्क करें",
+          "te": "కత్తెర పురుగు అత్యవసర హెచ్చరిక — కేవీకే సంప్రదింపు",
+          "mr": "लष्करी अळीचा तीव्र उद्रेक — त्वरित तज्ज्ञ सल्ला",
+          "ta": "படைப்புழு தீவிர தாக்குதல் எச்சரிக்கை",
+          "kn": "ಲದ್ದಿ ಹುಳು ತೀವ್ರ ಹಾವಳಿ — ಕೃಷಿ ವಿಜ್ಞಾನ ಕೇಂದ್ರ ಸಂಪರ್ಕ"
+        },
+        "instruction_i18n": {
+          "en": "Widespread (>20% plants) whorl damage detected. Do not arbitrarily mix random insecticides. Call Kisan Call Centre (1800-180-1551) or visit your nearest Agricultural Research Station for ICAR-approved poison bait protocol.",
+          "hi": "20% से अधिक पौधों में भारी नुकसान है। बिना विशेषज्ञ सलाह के जहरीली दवाइयां न मिलाएं। तुरंत 1800-180-1551 पर कॉल करें और ICAR अनुशंसित पॉइज़न बेटिंग विधि की जानकारी लें।",
+          "te": "పంటలో 20% కంటే ఎక్కువ నష్టం ఉంది. కిసాన్ కాల్ సెంటర్ 1800-180-1551 కు వెంటనే కాల్ చేయండి.",
+          "mr": "शेतात २०% पेक्षा जास्त नुकसान असल्यास स्वतःहून घातक रसायने मिसळू नका. १८००-१८०-१५५१ वर संपर्क साधा.",
+          "ta": "20% க்கும் மேற்பட்ட பயிர்கள் பாதிக்கப்பட்டுள்ளன. உடனடியாக 1800-180-1551 ஐ அழைத்து ஆலோசனை பெறவும்.",
+          "kn": "ಶೇಕಡಾ 20 ಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಾನಿಯಾಗಿದೆ. ತಕ್ಷಣ 1800-180-1551 ಸಹಾಯವಾಣಿಗೆ ಕರೆ ಮಾಡಿ."
+        },
+        "precaution": "Never apply pesticide during the tasseling/silking stage when honeybees are pollinating.",
+        "materials": ["Kisan Call Centre 1800-180-1551", "Block Agricultural Officer"]
+      }
+    }
+  },
+  "healthy_crop": {
+    "crop": "General Crop",
+    "disease_name": "Healthy Crop Foliage",
+    "scientific_name": "No Pathogen Detected",
+    "names_i18n": {
+      "en": "Healthy Crop Foliage",
+      "hi": "स्वस्थ एवं सुरक्षित फसल",
+      "te": "ఆరోగ్యకరమైన పంట ఆకులు",
+      "mr": "निरोगी पीक",
+      "ta": "ஆரோக்கியமான பயிர்",
+      "kn": "ಆರೋಗ್ಯಕರ ಬೆಳೆ"
+    },
+    "symptoms_i18n": {
+      "en": "Vibrant green leaf pigmentation, intact margins, uniform texture, and absence of necrotic lesions, mildew or pest egg clutches.",
+      "hi": "पत्तियों का स्वस्थ हरा रंग, कोई दाग-धब्बा या कीड़े के अंडे नहीं। पौधा पूर्णतः स्वस्थ और मजबूत है।",
+      "te": "మచ్చలు లేని ఆకుపచ్చని ఆకులు, ఎటువంటి పురుగు లేదా తెగులు లక్షణాలు లేవు.",
+      "mr": "पाने निरोगी, चमकदार हिरवी असून कोणताही रोग किंवा कीड आढळलेली नाही.",
+      "ta": "பயிர் செழிப்பாகவும் நோய்த்தாக்குதல் இன்றியும் ஆரோக்கியமாக உள்ளது.",
+      "kn": "ಯಾವುದೇ ಕಲೆ ಅಥವಾ ಕೀಟಗಳಿಲ್ಲದ ಆರೋಗ್ಯಕರ ಹಸಿರು ಬೆಳೆ."
+    },
+    "safe_advisories": {
+      "low": {
+        "tier": "Preventative Maintenance (Safe & Sound)",
+        "title_i18n": {
+          "en": "Routine Scouting & Soil Moisture Maintenance",
+          "hi": "नियमित निगरानी और उचित नमी बनाए रखें",
+          "te": "క్రమబద్ధమైన పర్యవేక్షణ & తేమ నిర్వహణ",
+          "mr": "नियमित पाहणी व योग्य ओलावा राखणे",
+          "ta": "வழக்கமான கண்காணிப்பு & ஈரப்பதம்",
+          "kn": "ನಿಯಮಿತ ವೀಕ್ಷಣೆ ಮತ್ತು ಸೂಕ್ತ ತೇವಾಂಶ"
+        },
+        "instruction_i18n": {
+          "en": "Your crop is in excellent health! Continue regular weekly scouting at dawn or dusk. Maintain balanced organic compost and optimal drip/furrow irrigation.",
+          "hi": "आपकी फसल बहुत स्वस्थ है! सप्ताह में एक बार सुबह या शाम खेत का मुआयना करते रहें। संतुलित जैविक खाद और उचित पानी देते रहें।",
+          "te": "మీ పంట చాలా ఆరోగ్యంగా ఉంది! వారానికి ఒకసారి పొలాన్ని పరిశీలిస్తూ ఉండండి. సమతుల్య సేంద్రీయ ఎరువులను వాడండి.",
+          "mr": "आपले पीक अतिशय निरोगी आहे! आठवड्यातून एकदा पिकाची पाहणी करत राहा व योग्य खत-पाणी व्यवस्थापन ठेवा.",
+          "ta": "உங்கள் பயிர் மிக ஆரோக்கியமாக உள்ளது! வாரம் ஒருமுறை பயிரை தொடர்ந்து கண்காணிக்கவும்.",
+          "kn": "ನಿಮ್ಮ ಬೆಳೆ ಉತ್ತಮ ಆರೋಗ್ಯದಲ್ಲಿದೆ! ವಾರಕ್ಕೊಮ್ಮೆ ಗದ್ದೆ ಪರಿಶೀಲಿಸಿ ಹಾಗೂ ಸಮತೋಲನ ಗೊಬ್ಬರ ನೀಡಿ."
+        },
+        "precaution": "Do not apply preventive chemical fungicides unnecessarily.",
+        "materials": ["Jeevamrut / Farm Yard Manure", "Clean irrigation water"]
+      },
+      "medium": {
+        "tier": "Preventative Maintenance (Safe & Sound)",
+        "title_i18n": {
+          "en": "Prophylactic Jeevamrut / Neem Spray",
+          "hi": "जीवामृत या 1% नीम तेल का एहतियाती छिड़काव",
+          "te": "జీవామృతం లేదా వేప కషాయం రక్షణ పిచికారీ",
+          "mr": "जीवामृत किंवा १% निंबोळी अर्क प्रतिबंधात्मक फवारणी",
+          "ta": "ஜீவாமிர்தம் அல்லது வேப்பெண்ணெய் முன்னெச்சரிக்கை தெளிப்பு",
+          "kn": "ಜೀವಾಮೃತ ಅಥವಾ ಬೇವಿನ ಕಷಾಯ ಮುಂಜಾಗ್ರತಾ ಸಿಂಪಡಣೆ"
+        },
+        "instruction_i18n": {
+          "en": "Apply 10% aerated Jeevamrut or 1% cold pressed neem spray once every 15 days to naturally boost plant immunity against airborne spores.",
+          "hi": "पौधों की रोग प्रतिरोधक क्षमता बढ़ाने के लिए 15 दिन में एक बार 10% जीवामृत या 1% नीम के तेल का हल्का छिड़काव कर सकते हैं।",
+          "te": "మొక్కల రోగనిరోధక శక్తిని పెంచడానికి 15 రోజులకు ఒకసారి జీవామృతం లేదా 1% వేప నూనె పిచिकారీ చేయండి.",
+          "mr": "पिकाची प्रतिकारशक्ती वाढवण्यासाठी १५ दिवसांतून एकदा १०% जीवामृत किंवा १% कडुनिंब अर्क फवारावा.",
+          "ta": "பயிரின் நோய் எதிர்ப்பு திறனை அதிகரிக்க 15 நாட்களுக்கு ஒருமுறை ஜீவாமிர்தம் தெளிக்கவும்.",
+          "kn": "ಗಿಡಗಳ ರೋಗ ನಿರೋಧಕ ಶಕ್ತಿ ಹೆಚ್ಚಿಸಲು 15 ದಿನಗಳಿಗೊಮ್ಮೆ ಜೀವಾಮೃತ ಸಿಂಪಡಿಸಿ."
+        },
+        "precaution": "Store bio-preparations in shaded cool areas.",
+        "materials": ["Organic Jeevamrut", "Water filter mesh"]
+      },
+      "high": {
+        "tier": "Preventative Maintenance (Safe & Sound)",
+        "title_i18n": {
+          "en": "Village Outbreak Watch Alert",
+          "hi": "गांव के आसपास नजर रखें",
+          "te": "గ్రామంలోని ఇతర పొలాలపై నిఘా",
+          "mr": "परिसरातील रोगस्थितीवर लक्ष ठेवा",
+          "ta": "சுற்றுவட்டார எச்சரிக்கை",
+          "kn": "ಗ್ರಾಮದ ಇತರೆ ಬೆಳೆಗಳ ಬಗ್ಗೆ ಜಾಗರೂಕರಾಗಿರಿ"
+        },
+        "instruction_i18n": {
+          "en": "Even though your sampled plant is clean, keep monitoring the KhetRakshak Village Risk Radar for neighboring outbreaks.",
+          "hi": "यद्यपि आपका यह पौधा स्वस्थ है, फिर भी खेत रक्षक विलेज रडार पर आसपास के खेतों की स्थिति पर नजर रखें।",
+          "te": "మీ పంట బాగున్నప్పటికీ, గ్రామంలోని ఇతర ప్రాంతాల తెగులు సమాచారాన్ని యాప్‌లో గమనిస్తూ ఉండండి.",
+          "mr": "जरी तुमचे पीक निरोगी असले तरी शेजारील शेतातील रोगांची माहिती ॲपवर तपासत राहा.",
+          "ta": "உங்கள் பயிர் நன்றாக இருந்தாலும், அருகிலுள்ள கிராம நிலவரங்களை தொடர்ந்து கவனியுங்கள்.",
+          "kn": "ನಿಮ್ಮ ಬೆಳೆ ಚೆನ್ನಾಗಿದ್ದರೂ ಆ್ಯಪ್‌ನಲ್ಲಿ ಗ್ರಾಮದ ಮುನ್ಸೂಚನೆ ಗಮನಿಸುತ್ತಿರಿ."
+        },
+        "precaution": "Report any sudden yellowing or spots immediately.",
+        "materials": ["KhetRakshak App"]
+      }
+    }
+  }
+}
